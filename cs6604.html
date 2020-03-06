@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Bent - Bootstrap Landing Page Template by Dcrazed
+	Site: https://dcrazed.com/bent-app-landing-page-template/
+	Free for personal and commercial use under GNU GPL 3.0 license.
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Md Salman Ahmed</title>
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+
+    <!-- Pixeden Icon Font -->
+    <link rel="stylesheet" href="css/Pe-icon-7-stroke.css">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- PrettyPhoto -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+ <!-- =========================
+     START ABOUT US SECTION
+============================== -->
+
+
+    <section class="about page" id="WORK" style="background:#FFFFFF">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title">
+                        <h2>Estimating Contagion Rates in Kickstarter Twitter
+						Cliques</h2>
+                    </div>
+
+				<div class="item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 text-center">
+								<img src="cs6604/Md_Salman_Ahmed.png" alt="Md
+								Salman Ahmed">
+								<h2>Md Salman Ahmed</h2>
+								<p>Virginia Tech - Department of Computer Science</p>
+							</div>
+							<div class="col-md-6 text-center">
+								<img src="cs6604/Davon_Woodard.png" alt="Davon
+								Woodard">
+								<h2>Davon Woodard</h2>
+								<p>Virginia Tech - Department of PGG, Urban 
+								Computing Certificate, and Global Forum on 
+								Urban Resilience</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <div class="inner_about_desc">
+			    <div class="single_about_area" data-wow-duration=".5s" data-wow-delay="1s">
+                	<h3>Summary</h3>
+					<p><strong>
+					In recent years, crowdfunding has emerged as a popular
+					communitybased, micro-financing model for entrepreneurs,
+					artists, and activists alike to bring their respective 
+					dreams into fruition. Successful campaigns, those which 
+					meet their financial goals, bring with them not only the 
+					financial utility for the creator, but also social utility 
+					for the backers. As such, much attention has been paid in 
+					recent years to predicting which campaigns will have the 
+					greatest likelihood of success. Rooted in this historical 
+					research, this project adapts the model of social media 
+					exposure curves of hashtags by Romero, Meeder and Kleinberg
+					[1] to understand contagion spread in Kickstarter 
+					crowdfunding campaigns through its twitter network.</strong><p>
+				</div>
+
+			    <div class="single_about_area">
+                	<h3>Proposed Methods</a></h3>
+					<p>This project attempted to adapt the work of Romero, et.
+					al.[1]. In this work, we aimed to understand how social
+					campaign can improve the success of crowdfunding projects
+					through stickiness and persistence of tweets through a network.
+					However, due to the limitations of the twitter dataset
+					(e.g., full network, nodes and neighbors were unknown), we
+					sought to understand the infection rate (the rate of
+					tweeting about a project) in as detailed in two models, a
+					simple SI contagion model and a complex contagion model.</p>
+
+					<p><strong>Simple model:</strong> For simple model, our
+					aim is to approximate the <img src="cs6604/beta.png"
+					alt=""> from a simple SI model, i.e.
+					<img src="cs6604/simple.png" alt="">
+					</p>
+
+					<p><strong>Complex Contagion Model:</strong> In this model,
+					we approximate the probability of a user after being exposed
+					to k tweets from his/her neighbors and replace the beta in
+					the simple model. The equation for the complex contagion is
+					the following:<br>
+					<p style="text-align:center"><img src="cs6604/complex.png" 
+					alt=""> </p>Where c is a constant,
+					<img src="cs6604/lambda.png" alt=""> is the decay rate, and
+					P(k) is <img src="cs6604/pk.png" alt="">.
+
+				</div>
+
+			    <div class="single_about_area">
+                	<h3>Results</a></h3>
+					<p>Actual versus the predicted infections are displayed over
+					10 days in the following figure using simple model.</p>
+					<img src="cs6604/si_actual_vs_prediction_success_it47.png" alt="">
+					<p> Two exposure curves, exponentially decay in nature, have
+					determined for all the successful and failed projects.
+					The following figure illustrates the curves.</p>
+					<img src="cs6604/avg_exposure.jpg" width="40%" alt="">
+
+					<p>Actual versus predicted infections are displayed over 10
+					days in the following figure using complex contagion model.</p>
+					<img src="cs6604/actual_vs_prediction.png" alt="">
+				</div>
+			    <div class="single_about_area">
+                	<h3>Project Materials</a></h3>
+					<p><strong>Final Report:</strong> <a
+					href="cs6604/ahmed-woodard-final.pdf">PDF</a></p>
+					<p><strong>Presentation Slides:</strong> <a
+					href="cs6604/cs.6604.pptx">PPT</a> <a href="cs6604/cs.6604.pdf">PDF</a></p>
+					<p><strong>Software:</strong> <a
+					href="cs6604/software.tar.gz">tar-ball</a></p>
+					<p><strong>Dataset:</strong> (i) <a
+					href="cs6604/crowdfunding.data.10.17.csv">Crowdfunding
+					project dataset</a>, (ii) <a href="cs6604/twitter_data_new.csv">Twitter dataset</a></p>
+				</div>
+			    
+				<div class="single_about_area">
+                	<h3>References</a></h3>
+					<p>1. Daniel M. Romero, Brendan Meeder, and Jon Kleinberg.
+					2011. Differences in
+					the mechanics of information diffusion across topics.
+					Proceedings of the 20th
+					international conference on World wide web - WWW ’11 (2011),
+					695. https://doi.
+					org/10.1145/1963405.1963503
+					</p>
+				</div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us -->
+
+<!-- =========================
+     SCRIPTS 
+============================== -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.ajaxchimp.langs.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
