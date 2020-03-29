@@ -1,236 +1,258 @@
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="white">
-        <meta name="keywords" content="">
-        <meta property="og:title" content="Md Salman Ahmed">
-        <link rel="icon" type="image/jpg" href="images/MdSalmanAhmed2.jpg">
-        <title>Salman Ahmed</title>
-        <style type="text/css">
-            body { 
-				margin: 0 1em; 
-				font-family:  Georgia, sans-serif;
-			}
-            #content { 
-				max-width: 50em; 
-				margin: 0em auto; 
-			}
-            * { font-size: 16px; 
-				line-height: 1.6em; 
-				box-sizing: border-box; 
-			}
-            code, .highlight { 
-				background: #eee; 
-			}
-            td, th { 
-				text-align: left; 
-				padding-right: 1em; 
-				vertical-align: top; 
-			}
-            .highlight .n, .highlight .nf, .highlight .nv { 
-				text-decoration: underline; 
-			}
-            .language-diff .highlight .gi { 
-				color: #22863a; 
-				background-color: #f0fff4; 
-			}
-            .language-diff .highlight .gd { 
-				color: #b31d28; 
-				background-color: #ffeef0; 
-			}
-            a:link, a:visited { 
-				text-decoration: none; 
-			}
-            .date { 
-				font-size: 0.7em; 
-			}
-            .jim_image { 
-				display: block; 
-				box-shadow: 2px 2px 10px #ccc; 
-			}
-            blockquote { 
-				border-left: 2px solid black; 
-				margin-left: 0; 
-				padding-left: 1rem; 
-			}
-			h1 {
-				display: inline-block;
-				margin-top: 0px;
-				margin-bottom: -10px;
-			}
-            p > img, p > a > img { 
-				border: 2px solid black; 
-				width: 100%; 
-			}
+<!DOCTYPE html>
 
-            .answer {
-            	border-color: #8ec58e;
-            	padding: 0 0.3rem;
-            	border-radius: 3px; border: 2px solid #8585d0;
-            }
-            .answer:not(.revealed) {
-            	color: rgba(0,0,0,0);
-            	background-image: url("https://d33wubrfki0l68.cloudfront.net/be480e676e29258dcd0ac164fcaaf1f3e517a936/2c442/assets/question-mark.svg");
-            	cursor: pointer;
-            }
-            .answer:not(.revealed) * {
-            	opacity: 0;
-            }
-			#publist li{
-				padding-bottom: 6px;
-			}
-			#cplist li{
-				padding-bottom: 6px;
-			}
-			#aclist li{
-				padding-bottom: 6px;
-			}
-			
-        </style>
-    </head>
-    <body data-gr-c-s-loaded="true">
-	    <div style="text-align: center; font-style: italic;">
-		<!--<p>“I haven’t failed. I’ve just found 10,000 ways that won’t work.” – Thomas Edison</p>-->
-		<!--<p>“Every failure is a blessing in disguise, providing it teaches some needed lessons one could not have learned without it. Most so-called Failures are only temporary defeats.” – NAPOLEON HILL</p>-->
-		<p>“Every failure is a blessing in disguise.” – NAPOLEON HILL</p>
-		</div>
-        <div style="margin: 0 1em 0 -0.6em; float: left;">
-        <a href="https://salmanyam.github.io/" style="display: block; transform: rotate(-5deg);" >
-            <video autoplay="" loop="" poster="images/MdSalmanAhmed3.jpg" class="jim_image" style="height: 128px; object-fit: cover; padding: 5px;">
-                <source src="" type="video/webm">
-                <source src="" type="video/mp4">
-            </video>
-        </a>
-		</div>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-        <div id="content">
-            <h1>About me | <a href="pdfs/Md-Salman-Ahmed-CV.pdf" target="_blank">CV</a></h1>
-            <p>My name is Salman Ahmed. I am currently pursuing my Ph.D. degree in the <a href="http://cs.vt.edu/">Department of Computer Science</a> at <a href="https://www.vt.edu/">Virginia Polytechnic Institute and State University</a> (popularly known as Virginia Tech). I am working with <a href="http://people.cs.vt.edu/~danfeng/index.html">Dr. Daphne Yao</a>. I obtained my Master's degree in Computer Science from East Tennesse State University (<a href="http://www.etsu.edu/ehome/">ETSU</a>) in May 2017. I completed my BS in Computer Science and Engineering (CSE) from Bangladesh University of Engineering and Technology (<a href="http://www.buet.ac.bd/">BUET</a>). I worked as both Software Engineer and Senior Software Engineer at Samsung R&amp;D Institute Bangladesh.
-            </p>
-			
-		<h1>News</h1>
-		<ul>
-		<li>[Mar 11, 2020] Got an offer from IBM Research as a Research intern for the upcoming summer.</li>
-		<li>[Feb 07, 2020] Our poster on fine-grained code randomization evaluation accepted by NDSS'20.</li>
-		<li>[Oct 23, 2019] Nominated for the IBM PhD Fellowship Award.</li>
-		<li>[Oct 08, 2019] Our ASLR manuscript is released on arxiv.</li>
-		<li>[Jun 10, 2019] Our SoK paper on Data-Oriented Attacks is accepted by SecDev.</li>
-		<li>[Feb 16, 2019] My Plan of Study (PoS) is approved.</li>
-		<li>[Feb 15, 2019] Passed Ph.D. Qualifier Exam.</li>
-		<li>[Feb 28, 2018] My MS thesis is selected as the outstanding MS thesis by TCGS [<a href="https://www.etsu.edu/news/2018/03-mar/nr_salman_ahmed_outstanding_thesis_award.aspx" target="_blank" rel="noopener">News</a>].</li>
-		</ul>
-			
-            
-            <h1>Reserach Interests</h1>
-            <p>I am broadly interested in researching system security. More specifically, I assess the threat intelligence of multi-stage advanced attacks, assess defense mechanisms to find loopholes in system defenses and extract exploit-patterns to make a unified framework to describe various attacks. I also conduct data-driven security to ensure the integrity of computer systems. Broadly, my research falls under the following areas:</p>
-			<ul>
-                <li>Threat Intelligence Analysis</li>
-                <li>Defense Analysis</li>
-                <li>Security of embedded systems</li>
-                <li>Data-driven security</li>
-                <li>Security in connected vehicle technology</li>
-            </ul>
-            
-            <h1 id="education">Education</h1>
-			<ul>
-				<li>PhD Student, Department of Computer Science, Virginia Tech (VT).</li>
-				<li>MS in Computer Science, Department of Computing, East Tennessee State University (ETSU).</li>
-				<li>BS in Computer Science and Engineering, Bangladesh University of Engineering and Technology (BUET).</li>
-			</ul>
-            
-           
-            
-            <h1 id="publications">Publications | <a href="https://scholar.google.com/citations?user=qhiWm64AAAAJ&hl=en">Google Scholar</a></h1>
-            <div id="publist">
-		    <ul>
-			    <li> Md Salman Ahmed, Ya Xiao, Gang Tan, Kevin Snow, Fabian Monrose, and Danfeng (Daphne) Yao. "Poster: Methodologies for Quantifying (Re-) Randomization Security and Timing under JIT-ROP." Network and Distributed Systems Security (NDSS) Symposium 2020 23-26 February 2020, San Diego, CA, USA. [<a href="https://www.ndss-symposium.org/wp-content/uploads/2020/02/NDSS2020posters_paper_28.pdf" target="_blank" rel="noopener">PDF</a>]</li>
-			
-			    <li> Md Salman Ahmed, Ya Xiao, Gang Tan, Kevin Snow, Fabian Monrose, and Danfeng (Daphne) Yao. “Methodologies for Quantifying (Re-)randomization Security and Timing under JIT-ROP.” [<a href="https://arxiv.org/pdf/1910.03034.pdf" target="_blank" rel="noopener">PDF</a>] </li>
-			
-			    <li> Long Cheng, Hans Liljestrand, Md Salman Ahmed, Thomas Nyman, Trent Jaeger, N. Asokan, and Danfeng (Daphne) Yao. “Exploitation Techniques and Defenses for Data-Oriented Attacks." IEEE Secure Development Conference (SecDev). McLean, VA. Sept. 2019.[<a href="" target="_blank" rel="noopener">PDF</a>].</li>		
-			
-			    <li> Md Salman Ahmed, Danfeng (Daphne) Yao, and Haipeng Cai. “POSTER: Extracting Anti-specifications from Vulnerabilities for Program Hardening.” IEEE Secure Development Conference (SecDev). Cambridge, MA. Sept. 2018.</li>
+		<title>Salman Ahmed</title>
 
-			    <li> Md Salman Ahmed, Mohammad A Hoque, Jackeline Rios-Torres, Asad Khattak, Brian Bennett. A Decentralized Cooperative Freeway Merge Assistance System using Connected Vehicles, IEEE Transactions on Intelligent Transportation Systems, 2018 (under review) [<a href="pdfs/fmas.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-                
-			    <li> Mohammad A Hoque, Xiaoyan Hong, Md Salman Ahmed. Parallel Closedloop Connected Vehicle Simulator for Large-scale Management of Transportation Networks: Challenges, Issues, and Solution Approaches, IEEE Intelligent Transportation Systems Magazine, 2018 (in press).</li>
-	                
-			    <li> Ahmed, Md Salman, Mohammad A. Hoque, and Asad Khattak. "Intersection Approach Advisory Through Vehicle-to-Infrastructure Communication Using Signal Phase and Timing Information at Signalized Intersection." The Transportation Research Board (TRB) 97th Annual Meeting, 2018.</li>
-	                
-			    <li> Ahmed, Md Salman, et al. "Freeway Merge Assistance System using DSRC." Proceedings of the 2nd ACM International Workshop on Smart, Autonomous, and Connected Vehicular Systems and Services. ACM, 2017.</li>
-	                
-			    <li> Ahmed, Md Salman. An Investigation into the Performance Evaluation of Connected Vehicle Applications: From Real-World Experiment to Parallel Simulation Paradigm. Diss. East Tennessee State University, 2017.</li>
-                
-			    <li> Md Salman Ahmed, Mohammad A Hoque. Demo: Real-time vehicle movement tracking on Android devices through Bluetooth communication with DSRC devices. IEEE Vehicular Networking Conference (VNC), Columbus, OH, 2016 [<a href="pdfs/VNC.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-                
-			    <li> Md Salman Ahmed, Mohammad A Hoque. Partitioning of urban transportation networks utilizing real-world traffic parameters for distributed simulation in SUMO. IEEE Vehicular Networking Conference (VNC), Columbus, OH, 2016, pp. 1-4. doi: 10.1109/VNC.2016.7835942, 2016 [<a href="pdfs/VNC2016.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-	                
-			    <li> Md Salman Ahmed, J Houser, MA Hoque, R Raju, P Pfeiffer. Reducing Inter-Process Communication Overhead in Parallel Sparse Matrix-Matrix Multiplication, International Journal of Grid and High Performance Computing (IJGHPC), 9(3), 46-59., 2017 [<a href="pdfs/main_bkp.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-                
-			    <li> Md Salman Ahmed, Mohammad A Hoque, Phil Pfeiffer. Comparative study of connected vehicle simulators, IEEE Southeas Conference (pp. 1-7), 2016 [<a href="pdfs/PID4091177.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-	            </ul>
-		</div>
-            
-            
-            <h1>Course Projects</h1>
-            
-            <ul id="cplist">
-                <li>Estimating Contagion Rates in Kickstarter Twitter Cliques [<a href="cs6604.html" target="_blank" rel="noopener">Details</a>][<a  href="http://people.cs.vt.edu/ahmedms/cs6604/ahmed-woodard-final.pdf" target="_blank" rel="noopener">PDF</a>].</li>
-            
-                <li>Myers Brigg Personality Type Prediction using Freeform Writing Style [<a href="cs5824.html" target="_blank" rel="noopener">Details</a>].</li>
-            
-                <li>Automatic commit message generation using neural machine translation models |
-                [<a href="https://github.com/salmanyam/CommitGen" target="_blank" rel="noopener">Details</a>][<a href="pdfs/acc.pdf" target="_blank" rel="noopener">PDF</a>] </li>
-            </ul>
-            
-            
-            <h1>Awards &amp; Certifications</h1>
-            
-            <ul id="aclist">
-                <li class="post">ETSU School of Graduate Studies Outstanding Thesis in Science, Math, Technology, and Computer Science Award, April 18, 2018.</li>
-                <li class="post">Tennessee Conference of Graduate Schools Outstanding Master's Thesis Award, February 28, 2018. [<a href="images/ahmed_md.jpg" target="_blank" rel="noopener">Photo</a>]</li>
-                <li>Outstanding Computing Graduate Student Award, Department of Computing, ETSU, April 20, 2017.</li>
-                <li>Best Paper Award (3rd Place), Graduate Student Presentation Competition of the ACM-Mid Southeast Conference, TN, November 11, 2016.</li>
-                <li>Samsung R&amp;D Icon of the Month Award, Samsung R&amp;D Institute Bangladesh, March 2015.</li>
-                <li>IEEEXtreme Programming Contest 10.0 (18th Place in USA), My team secured the position over 2100+ worldwide teams in the contest held on October 22-23, 2016.</li>
-                <li>IEEEXtreme Programming Contest 9.0 (51st Place in USA), My team secured the position over 2300+ worldwide teams in the contest held on October 23-24, 2015.</li>
-                <li>Dean’s List for outstanding result in the 4th year at BUET.</li>
-			</ul>
-            
-            <!--<p>In its simplest use, the process calls <code class="highlighter-rouge">setjmp</code> somewhere, then at some time later calls <code class="highlighter-rouge">longjmp</code>. Roughly, the call to <code class="highlighter-rouge">longjmp</code> restores the process in the state that it existed when it called <code class="highlighter-rouge">setjmp</code>. Thus, this program is an infinite loop:</p>
-             <p>This loops forever, since the process state at <code class="highlighter-rouge">setjmp</code> led to the call to <code class="highlighter-rouge">longjmp</code>. Thus, the process makes the calls <code class="highlighter-rouge">setjmp</code>, <code class="highlighter-rouge">longjmp</code>, <code class="highlighter-rouge">longjmp</code>, <code class="highlighter-rouge">longjmp</code>, <em>ad infinitum</em>. (Actually, I think this pattern causes undefined behavior. The <code class="highlighter-rouge">setjmp</code> and <code class="highlighter-rouge">longjmp</code> calls are supposed to come in pairs.)</p>-->
-				
-			<h1>Contact</h1>
-			<p>
-				Torgersen Hall, 2220 (D) <br>
-				620 Drillfield Drive Blacksburg, VA 24061 <br>
-				Email: ahmedms AT vt DOT edu<br>
-			</p>
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-            <p style="text-align: center">
-				<a target="_blank" style="display: inline-block; padding: 4px 10px; margin: 2em auto; background-color: #1b95e0; color: #fff; cursor: pointer;" href="https://github.com/salmanyam">Github Account</a>
-				<a target="_blank" style="display: inline-block; padding: 4px 10px; margin: 2em auto; background-color: #1b95e0; color: #fff; cursor: pointer;" href="mailto:ahmedms@vt.edu">Email</a>
-				<a target="_blank" style="display: inline-block; padding: 4px 10px; margin: 2em auto; background-color: #1b95e0; color: #fff; cursor: pointer;" href="https://www.linkedin.com/in/md-salman-ahmed-7bb08455">LinkedIn</a>
-            </p>
-            <hr>
-            <p style="text-align:center">
-				Thank you for visiting this site. Please send me an email if you need anything else from me.
-            </p>
-			<!--
-            <style>
-                .navbar { display: flex; margin: 1em 0; }
-                .navbar .navbar-item { flex-grow: 1; text-align: center; }
-            </style>
-            <div class="navbar">
-                <div class="navbar-item"><a href="">Security Blog</a></div>
-                <div class="navbar-item"><a href="">Option 1</a></div>
-                <div class="navbar-item"><a href="">Option 2</a></div>
-                <div class="navbar-item"><a href="">Projects</a></div>
-                <div class="navbar-item"><a href="">Photography</a></div>
+	</head>
+
+	<body data-gr-c-s-loaded="true">
+
+		<div class="wrapper">
+			<section>
+				<div>
+					<p><img style="padding: 0 15px 0 0; float: left;" src="./images/salman.jpg" width="165" height="180" > 
+						<font size="6">Salman Ahmed</font> <br>
+						Ph.D. Student, Computer Science <br>
+						<a href="http://yaogroup.cs.vt.edu/">Yao Group, Human-centric Security Research Lab</a> <br>
+						Email: ahmedms at vt.edu <br>
+						<a href="https://twitter.com/intent/tweet?screen_name=salmanyam&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @salmanyam</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+						<a href="https://scholar.google.com/citations?user=qhiWm64AAAAJ&hl=en" target="_blank" style="padding-left: 0px"><img src="./images/scholar.png" height="24px" width="24px"></a>
+						<a href="https://github.com/salmanyam" target="_blank" style="padding-left: 20px"><img src="./Aditya Grover_files/github.svg" height="24px" width="24px"></a>
+						<a href="https://www.linkedin.com/in/salmanyam/" target="_blank" style="padding-left: 20px"><img src="./images/linkedin.svg" height="24px" width="24px"></a>
+					</p>
+				</div>
+
+				 <div class="nav">
+				 	<ul>
+				 		<li><a href="#recent-news"><span>&#128227;</span>Recent News</a> | </li>
+				      	<li><a href="#publications"><span>&#128218;</span>Publications</a> | </li>
+				      	<li><a href="https://salmanyam.github.io/pdfs/Md-Salman-Ahmed-CV.pdf"><span>&#128193;</span>CV</a> | </li>
+				      	<li><a href="#contact"><span>&#128236;</span>Contact</a></li>
+					</ul>
+				</div>
+
+				<div id="bio">
+					<p align="justify">I am a third-year Computer Science Ph.D. student at Virginia Tech advised by Daphne Yao and a member of Yao Group. As a member of Yao Group, I am focused on developing deployable tools with concrete methodologies and metrics to quantify and measure security assurance.
+
+					Prior to starting my Ph.D. at Virginia Tech, I worked for the automation and security of connected vehicle technology and development of platform tools for embedded (e.g., smartwatches) and mobile devices.</p>
+
+					<p> Before joining graduate school, I obtained my bachelors in Computer Science and Engineering from Bangladesh University of Engineering and Technology (2013). I also worked as both Software and Senior Software Engineer at Samsung R&D.</p>
+
+					<p>In my free time, I like playing cricket. </p>
+
+				</div>
+
+
+				<div id="recent-news">
+					<h1> Recent News</h1>
+					<ul class="list-font-size">
+						<li>[Mar 11, 2020] Got an offer from IBM Research as a Research intern for the upcoming summer.</li>
+						<li>[Feb 07, 2020] Our poster on fine-grained code randomization evaluation accepted by NDSS'20.</li>
+						<li>[Oct 23, 2019] Nominated for the IBM PhD Fellowship Award.</li>
+						<li>[Oct 08, 2019] Our ASLR manuscript is released on arxiv.</li>
+						<li>[Jun 10, 2019] Our SoK paper on Data-Oriented Attacks is accepted by SecDev.</li>
+						<li>[Feb 16, 2019] My Plan of Study (PoS) is approved.</li>
+						<li>[Feb 15, 2019] Passed Ph.D. Qualifier Exam.</li>
+						<li>[Feb 28, 2018] My MS thesis is selected as the outstanding MS thesis by TCGS [<a href="https://www.etsu.edu/news/2018/03-mar/nr_salman_ahmed_outstanding_thesis_award.aspx" target="_blank" rel="noopener">News</a>].</li>
+					</ul>
+				<div>
+                    
+                <div class="page-header" id="publications">
+                	<h1>Publications</h1>
+
+                	<!--<h3>2020</h3>-->
+
+                	<div class="pub">
+                        <div class="title">
+                            <a href="https://arxiv.org/pdf/1910.03034.pdf">
+                                Methodologies for Quantifying (Re-)randomization Security and Timing under JIT-ROP
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Ya Xiao, Gang Tan, Kevin Snow, Fabian Monrose, and Danfeng (Daphne) Yao
+                        </div>
+                        <div class="location">
+                            Under Review
+                        </div>
+                    </div>
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://www.ndss-symposium.org/wp-content/uploads/2020/02/NDSS2020posters_paper_28.pdf">
+                                Poster: Methodologies for Quantifying (Re-) Randomization Security and Timing under JIT-ROP.
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Ya Xiao, Gang Tan, Kevin Snow, Fabian Monrose, and Danfeng (Daphne) Yao
+                        </div>
+                        <div class="location">
+                            In Network and Distributed Systems Security (NDSS) Symposium 2020, San Diego, CA, USA.
+                        </div>
+                    </div>
+
+                    <!--<h3>2019</h3>-->
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://salmanyam.github.io/pdfs/">
+                                Exploitation Techniques and Defenses for Data-Oriented Attacks
+                            </a>
+                        </div>
+                        <div class="authors">
+                        	Long Cheng, Hans Liljestrand, <span class="me">Md Salman Ahmed</span>, Thomas Nyman, Trent Jaeger, N. Asokan, and Danfeng (Daphne) Yao
+                        </div>
+                        <div class="location">
+                            In IEEE Secure Development Conference (SecDev) 2019, McLean, VA, USA.
+                        </div>
+                    </div>
+
+                    <!--<h3>2018</h3>-->
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://secdev.ieee.org/wp-content/uploads/2018/08/Extracting-Anti-specifications-from-Vulnerabilities-for-Program-Hardening.pdf">
+                                POSTER: Extracting Anti-specifications from Vulnerabilities for Program Hardening
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Danfeng (Daphne) Yao, and Haipeng Cai
+                        </div>
+                        <div class="location">
+                            In IEEE Secure Development Conference (SecDev) 2018, Cambridge, MA, USA.
+                        </div>
+                    </div>
+
+                    <!--<h3>2017</h3>-->
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://dl.acm.org/doi/pdf/10.1145/3131944.3131957?casa_token=g8p8ck_ds7QAAAAA:YYdsTh9kZoeIE4uWZn_qyn-bUw_Flktz4INP8tiH_feuplfU7BzYIiRk4wHacRzWih39FNZn0iuY">
+                                Freeway merge assistance system using DSRC
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Mohammad A. Hoque, Jackeline Rios-Torres, and Asad Khattak.
+                        </div>
+                        <div class="location">
+                            2nd ACM International Workshop on Smart, Autonomous, and Connected Vehicular Systems and Services, 2017
+                        </div>
+                    </div>
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://dc.etsu.edu/cgi/viewcontent.cgi?article=4620&context=etd">
+                                An Investigation into the Performance Evaluation of Connected Vehicle Applications: From Real..
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>
+                        </div>
+                        <div class="location">
+                            Dissertation, East Tennessee State University, 2017.
+                        </div>
+                    </div>
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://salmanyam.github.io/pdfs/main_bkp.pdf">
+                                Reducing Inter-Process Communication Overhead in Parallel Sparse Matrix-Matrix Multiplication
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Jennifer Houser, Mohammad A. Hoque, Rezaul Raju, and Phil Pfeiffer
+                        </div>
+                        <div class="location">
+                            In International Journal of Grid and High Performance Computing (IJGHPC) 2017
+                        </div>
+                    </div>
+
+                    <!--<h3>2016</h3>-->
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://salmanyam.github.io/pdfs/VNC2016.pdf">
+                                Partitioning of urban transportation networks utilizing real-world traffic parameters for distributed...
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span> and Mohammad A Hoque
+                        </div>
+                        <div class="location">
+                            In IEEE Vehicular Networking Conference (VNC) 2016, Columbus, OH, USA.
+                        </div>
+                    </div>
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://salmanyam.github.io/pdfs/VNC.pdf">
+                                Demo: Real-time vehicle movement tracking on Android devices through Bluetooth communication...
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, and Mohammad A Hoque
+                        </div>
+                        <div class="location">
+                            In IEEE Vehicular Networking Conference (VNC) 2016, Columbus, OH, USA.
+                        </div>
+                    </div>
+
+                    <div class="pub">
+                        <div class="title">
+                            <a href="https://salmanyam.github.io/pdfs/PID4091177.pdf">
+                                Comparative study of connected vehicle simulators
+                            </a>
+                        </div>
+                        <div class="authors">
+                            <span class="me">Md Salman Ahmed</span>, Mohammad A Hoque, and Phil Pfeiffer
+                        </div>
+                        <div class="location">
+                            In IEEE Southeas Conference 2016, Norfolk, VA, USA.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="service">
+                	<h1> Service </h1>
+            		<ul>
+            			<li> <i>Journal Reviewer</i>: Journal of Parallel and Distributed Computing (JPDC)
+            			</li><li> <i>Conference Sub-Reviewer</i>: IEEE S&P (2020, 2019), CCS (2019, 2018), NDSS (2019), WWW (2019), ACSAC (2018), ASIACCS (2018), SecDev (2020), and CSET (2019)
+            			</li>
+            		</ul>
+            	</div>
+
+            	<div id="honors">
+					<h1> Awards & Certifications</h1>
+					<ul class="list-font-size">
+						<li>ETSU School of Graduate Studies Outstanding Thesis Award, April 18, 2018.</li>
+                		<li>Tennessee Conference of Graduate Schools Outstanding Master's Thesis Award, Feb 28, 2018. [<a href="images/ahmed_md.jpg" target="_blank" rel="noopener">Photo</a>]</li>
+                		<li>Outstanding Computing Graduate Student Award, Department of Computing, ETSU, April 20, 2017.</li>
+                		<li>Samsung R&amp;D Icon of the Month Award, Samsung R&amp;D Institute Bangladesh, March 2015.</li>
+					</ul>
+				<div>
+
+            	<div id="contact">
+            		<h1>Contact</h1>
+            		<p>
+            			Torgersen Hall, 2220 (D) <br>
+						620 Drillfield Drive Blacksburg, VA 24061 <br>
+						Email: ahmedms AT vt DOT edu<br>
+					</p>
+				</div>
+
+				<div id="footer">
+					<hr>
+					<p class="myfooter">Last updated on March 28th, 2020</p>
+				</div>
+
             </div>
-			<hr>-->
-			<p style="text-align: center;">Last updated on October 30th, 2019</p>
         </div>
- </body>
-</html>
+    </section>
+</div>
