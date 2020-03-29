@@ -1,8 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(//db.onlinewebfonts.com/c/d3bc29cdf1a186445c9f46a36bce16c9?family=ClassicXtraRoundW00-Demi);
+@import url(//db.onlinewebfonts.com/c/fbdb33f29e62f1f34f5e556e641d35c8?family=ClassicXtraRoundW00-Thin);*/
+@import url(//db.onlinewebfonts.com/c/2f142daa69e505d53c9c00d2e2878fb9?family=ClassicXtraRoundW00-Light);
 
 body {
   padding:50px;
-  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:18px/1.5 ClassicXtraRoundW00-Light, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font:15px/1.5 Lato, "Helvetica Neue", Helvetica, sans-serif;*/
   color:#000;
   font-weight:400;
@@ -280,7 +283,7 @@ footer {
     font-weight:700;
 }
 .pub .location{
-    font-style:italic;
+    /*font-style:italic;*/
     font-size: 15px;
 }
 
