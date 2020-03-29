@@ -1,7 +1,23 @@
 /*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 @import url(//db.onlinewebfonts.com/c/d3bc29cdf1a186445c9f46a36bce16c9?family=ClassicXtraRoundW00-Demi);
-@import url(//db.onlinewebfonts.com/c/fbdb33f29e62f1f34f5e556e641d35c8?family=ClassicXtraRoundW00-Thin);*/
-@import url(https://db.onlinewebfonts.com/c/2f142daa69e505d53c9c00d2e2878fb9?family=ClassicXtraRoundW00-Light);
+@import url(//db.onlinewebfonts.com/c/fbdb33f29e62f1f34f5e556e641d35c8?family=ClassicXtraRoundW00-Thin);
+@import url(https://db.onlinewebfonts.com/c/2f142daa69e505d53c9c00d2e2878fb9?family=ClassicXtraRoundW00-Light);*/
+
+/*
+      www.OnlineWebFonts.Com 
+      You must credit the author Copy this link on your web 
+      <div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
+      OR
+      <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+*/
+@font-face {font-family: "ClassicXtraRoundW00-Light";
+    src: url("2f142daa69e505d53c9c00d2e2878fb9.eot"); /* IE9*/
+    src: url("2f142daa69e505d53c9c00d2e2878fb9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("2f142daa69e505d53c9c00d2e2878fb9.woff2") format("woff2"), /* chrome firefox */
+    url("2f142daa69e505d53c9c00d2e2878fb9.woff") format("woff"), /* chrome firefox */
+    url("2f142daa69e505d53c9c00d2e2878fb9.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("2f142daa69e505d53c9c00d2e2878fb9.svg#ClassicXtraRoundW00-Light") format("svg"); /* iOS 4.1- */
+}
 
 body {
   padding:50px;
