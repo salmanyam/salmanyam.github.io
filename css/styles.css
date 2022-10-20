@@ -25,7 +25,8 @@ body {
   /*font:15px/1.5 Lato, "Helvetica Neue", Helvetica, sans-serif;*/
   color:#000;
   font-weight:400;
-  background-image: url("../images/background.png");
+  /*background-image: url("../images/background.png");*/
+  background-color: hsl(30, 10%, 96%);
 }
 
 b {
