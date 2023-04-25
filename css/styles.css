@@ -21,12 +21,20 @@
 
 body {
   padding:50px;
-  font:18px/1.5 ClassicXtraRoundW00-Light, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font:18px/1.5 ClassicXtraRoundW00-Light, Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*font:15px/1.5 Lato, "Helvetica Neue", Helvetica, sans-serif;*/
-  color:#000;
-  font-weight:400;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000003;
+  text-align: start;
+  font-weight: 200;
+  text-align: start;
+  /*color:#000;*
+  /*font-weight:400;*/
   /*background-image: url("../images/background.png");*/
-  background-color: hsl(30, 10%, 96%);
+  /*background-color: hsl(30, 10%, 96%);*/
+   background-color: white;
 }
 
 b {
