@@ -256,7 +256,8 @@ h6 {
   bottom: 0;
   background: rgba(22, 30, 56, 0.9);
   transition: 0.3s;
-  z-index: 999;
+  z-index: 1999;
+  height: 400px;
 }
 
 .navbar-mobile .mobile-nav-toggle {
