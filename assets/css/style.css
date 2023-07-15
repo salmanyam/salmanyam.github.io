@@ -647,7 +647,7 @@ ul.ul-news li .description span.institution i {
 }
 
 .pub-list-item {
-  font-size: 0.9rem;
+  /*font-size: 0.9rem;*/
   margin-bottom: 1rem;
 }
 .pub-list-item .pub-abstract {
