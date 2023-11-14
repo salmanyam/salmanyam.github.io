@@ -9,7 +9,8 @@ body {
   font-size: 16.17px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
-  background: gainsboro;
+  /*background: gainsboro;*/
+  background-color: rgb(236, 245, 250);
 }
 
 a {
@@ -68,7 +69,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background-color: rgb(236, 245, 250);
+  /*background: #fff;*/
   /*background:steelblue;*/
   transition: all 0.5s;
   z-index: 997;
@@ -166,7 +168,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  /*background: #fff;*/
+  background-color: rgb(236, 245, 250);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -255,6 +258,7 @@ h6 {
   left: 0;
   bottom: 0;
   background: rgba(22, 30, 56, 0.9);
+  /*background-color: rgb(236, 245, 250);*/
   transition: 0.3s;
   z-index: 1999;
   height: 400px;
@@ -274,7 +278,8 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: rgb(236, 245, 250);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -305,7 +310,8 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  /*background: #fff;*/
+  background-color: rgb(236, 245, 250);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -414,7 +420,8 @@ h6 {
 }
 
 .home-section {
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: rgb(236, 245, 250);
   padding: 30px 0 30px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
