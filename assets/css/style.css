@@ -1,12 +1,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('fonts/ppneuemontreal-book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   /*font-family: "Open Sans", sans-serif;
   color: #444444;*/
-  font-family: "NeueMontreal",sans-serif;
-  font-size: 16.17px;
+  font-family: "PP Neue Montreal";
+  font-size: 20px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
   /*background: gainsboro;*/
@@ -29,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "PP Neue Montreal";
 }
 
 /*--------------------------------------------------------------
@@ -78,7 +85,7 @@ h6 {
   box-shadow: 0px 2px 15px rgba(36, 50, 93, 0.06);
   height: 70px;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,0.11);
-  font-size: 16.17px;
+  font-size: 20px;
   position: fixed;
   top: 0;
   right: 0;
@@ -134,7 +141,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: #24325d;
   white-space: nowrap;
@@ -143,7 +150,7 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
   padding-right: 5px;
@@ -180,13 +187,13 @@ h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: none;
   font-weight: 500;
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar .dropdown ul a:hover,
@@ -287,7 +294,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 16px;
   color: #24325d;
 }
 
@@ -324,7 +331,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -364,17 +371,25 @@ h6 {
   }
 }
 
-@media(min-width: 992px) {
-  .container {
-      max-width:960px
-  }
-}
 /*1200px*/
 @media(min-width: 992px) {
   .container {
       max-width:960px;
   }
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
 
 .container-fluid,.container-xl,.container-lg,.container-md,.container-sm {
   width: 100%;
@@ -402,11 +417,27 @@ h6 {
   }
 }
 /*1200px*/
-@media(min-width: 992px) {
+/*@media(min-width: 992px) {
   .container-xl,.container-lg,.container-md,.container-sm,.container {
       max-width:960px
   }
+}*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
 }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
 
 
 
@@ -522,7 +553,7 @@ ul.network-icon {
 }
 
 ul.ul-interests li {
-  font-size: 1rem
+  font-size: 1.2rem
 }
 
 ul.ul-edu {
@@ -539,11 +570,11 @@ ul.ul-edu li .description p {
 }
 
 ul.ul-edu li .description p.course {
-  font-size: 1rem
+  font-size: 1.2rem
 }
 
 ul.ul-edu li .description p.institution {
-  font-size: .85rem;
+  font-size: 1rem;
   color: rgba(0,0,0,.6)
 }
 
@@ -574,12 +605,12 @@ ul.ul-news li .description span.course {
 }
 
 ul.ul-news li .description span.institution {
-  font-size: .9rem;
+  font-size: 1rem;
   color: rgba(0,0,0,.6)
 }
 
 ul.ul-news li .description span.institution i {
-  font-size: .9rem;
+  font-size: 1rem;
   color:royalblue
 }
 
@@ -712,3 +743,5 @@ ul.ul-news li .description span.institution i {
 .btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 .2rem #217ee7
 }
+
+
