@@ -1,24 +1,50 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
+/*@font-face {
   font-family: 'PP Neue Montreal';
   src: url('fonts/ppneuemontreal-book.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}*/
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('fonts/NeueMontreal-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 
 body {
   /*font-family: "Open Sans", sans-serif;
   color: #444444;*/
   /*font-family: "PP Neue Montreal";*/
-  font-family: 'Noto Serif', serif;
-  font-size: 19px;
+  /*font-family: 'Noto Serif', serif;*/
+  /*font-family: 'Signika', serif;*/
+  font-family: "NeueMontreal"
+  font-size: 25px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
+  color: #0c0c13;
+  font-weight: 100;
+  font-size: 19px;
+  font-style: thin;
+  font-weight: 100;
+  letter-spacing: 0.75px;
+  line-height: 30px;
+  /*font-family: "NeueMontreal";
+  font-family: 'Signika';
+  font-size: 19px;
+  font-style: light;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  line-height: 35px;*/
   /*background: gainsboro;*/
-  background-color: rgb(236, 245, 250);
+  /*background-color: rgb(245, 245, 245);*/
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -38,7 +64,9 @@ h4,
 h5,
 h6 {
   /*font-family: "PP Neue Montreal";*/
-  font-family: 'Noto Serif', serif;
+  /*font-family: 'Noto Serif', serif;*/
+  font-family: 'Signika', serif;
+  /*font-family: "NeueMontreal"*/
 }
 
 /*--------------------------------------------------------------
@@ -143,7 +171,9 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   /*font-family: "Poppins", sans-serif;*/
-  font-family: 'Noto Serif', serif;
+  /*font-family: 'Noto Serif', serif;*/
+  font-family: 'Signika', serif;
+  /*font-family: "NeueMontreal"*/
   font-size: 19px;
   font-weight: 500;
   color: #24325d;
@@ -383,13 +413,13 @@ h6 {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 
@@ -432,12 +462,12 @@ h6 {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 960px;
   }
 }
 
@@ -455,7 +485,7 @@ h6 {
 
 .home-section {
   /*background-color: #fff;*/
-  background-color: rgb(236, 245, 250);
+  /*background-color: rgb(245, 245, 245);*/
   padding: 30px 0 30px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -544,7 +574,7 @@ ul.network-icon {
 .section-subheading {
   font-size: 1.25rem;
   /*font-family: montserrat,sans-serif;*/
-  font-family: 'Noto Serif', serif;
+  /*font-family: 'Noto Serif', serif;*/
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: .5rem
